@@ -8,7 +8,7 @@ const PORT = 8000;
 //cors
 const cors = require('cors');
 app.use(cors({
-    origin: "http://localhost:3000"
+    origin: "https://flipkart-client.onrender.com"
 }));
 
 //calling db connection function
